@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background-color: #fff;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(43, 43, 43,0.137); 
+}
+.logo{
+    background-color: orangered;
+    border-radius: 20px;
+    width: 58px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+}
+#logoImage{
+    transition: all 0.2s;
+    transform: translateX(-58px);
+}
+#logoImage:hover{
+    transform: translateX(0);
+}
+.navlinks{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 1% 1.2%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.navlinks:hover{
+    text-decoration: none;
+}
+.searchbox{
+    position: relative;
+    left: 5vmax;
+}
+.searchbox > input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 1.1vmax;
+    font-weight: 100;
+    width: 15vmax;
+
+}

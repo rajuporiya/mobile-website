@@ -1,0 +1,39 @@
+.preNav{
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+    /* display: grid; */
+    display: flex;
+    /* height: 40px; */
+    justify-content: space-between;
+    /* grid-template-columns: 7fr 2fr; */
+}
+.preNav > div{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+.preNav > div > span{
+    color: rgba(180, 180, 180, 0.644);
+    font-size: 1rem;
+    font-weight: 100;
+}
+.preNav > div:last-child{
+    margin-top: -5px;
+
+}
+.preNav > div > a{
+    color: rgb(180, 180, 180);
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+.preNav > div > a:hover{
+    color: #fff;
+}
+@media only screen and (max-width:600px) {
+    .preNav{
+        display: block;
+    }
+}
